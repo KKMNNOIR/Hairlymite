@@ -81,6 +81,15 @@
 					"boxes": [
 						{"coordinates": [-0.25, 0, 0, 1, 2, 0], "textureOffset": [0, 0]}
 					]
+				},
+				{
+					"id": "hair8",
+					"invertAxis": "xy",
+					"translate": [3, 1.75, 0],
+					"rotate": [0, 0, -45],
+					"boxes": [
+						{"coordinates": [-0.75, 0, 0, 1, 2, 0], "textureOffset": [0, 0]}
+					]
 				}
 			],
 			"animations": [
@@ -104,6 +113,9 @@
 				},
 				{
 					"hair7.rx": "sin(time) / 4 - 0.5"
+				},
+				{
+					"hair8.rx": "sin(time) / 4 - 0.5"
 				}
 			]
 		},
